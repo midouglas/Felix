@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        header {
+            text-align: center;
+            background-color: aquamarine;
+        }
+        main {
+            background-color: blueviolet;
+        }
+        footer {
+            background-color: brown;
+        }
+        .alinhar {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p:nth-child(2) {
+            font-size: 20px;
+            color: chartreuse;
+            text-align: center;
+        }
+        p:nth-child(3) {
+            color: brown;
+        }
+
+        .alinhar{
+            text-align: center;
+        }
+
+        .formatar {
+
+        }
+
+        button {
+            font-size: 15px;
+            color: yellow;
+            background-color: red;
+            border-radius: 5%;
+            font-family: fantasy;
+            transition-duration: 0.4;
+        }
+        button:hover {
+            color: aliceblue;
+            background-color: aqua;
+        }
+
+        input {
+            font-size: 15px;
+            text-align: center;
+            border-radius: 10%;
+            font-family: fantasy;
+        }
+        .formulario {
+            text-align: center;
+        }
+
+    </style>
+    <div>
+
+    <header>
+        <img src="img/gato.jpg" alt="Félix">
+        <nav>
+            <a href="#">Home</a>
+            <a href="public/sobre.html">sobre</a>
+            <a href="public/contato.html">contato</a>
+            <a href="#personagem">personagem</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+        <h1>O gato Felix</h1>
+        <p><strong> ipsum dolor sit amet consectetur adipisicing elit.</strong> Quibusdam atque, facere sed ducimus eius iure eveniet obcaecati, labore modi placeat quas, id minus? Molestiae quas nobis cumque ullam aspernatur ipsam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos similique dicta modi dolor accusantium asperiores mollitia beatae deleniti quibusdam, repellat alias illo quas veritatis at ipsa ab doloribus in! Impedit.</p>
+        </article>
+
+        <br>
+        <br>
+
+        <aside>
+            <img src="img/gato1.jpg" alt="Bolsa">
+        </aside>
+        <aside>
+            <div id="#personagem">
+            <h3 class="alinhar formatar">Categorias</h3>
+
+            </div>
+        </aside>
+
+        <aside>
+            <div class="formulario">
+                <input type="text" id="nome" placeholder="Coloque seu nome"><br>
+                <input type="text" id="e-mail" placeholder="Preencha com e-mail"><br>
+                <input type="text" id="idade" placeholder="Coloque sua idade">
+                <br>
+                <button type="button">Cadastrar</button>
+                <button type="button">Apagar</button>
+            </div>
+        </aside>
+
+
+
+    </main>
+
+    <footer>
+        <h5>Todos os direitos reservados</h5>
+    </footer>
+
+
+
+    </div>
+</body>
+</html>
