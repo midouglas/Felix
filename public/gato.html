@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato</title>
+</head>
+<body>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+
+            margin-top: 50px;
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-bottom: 200px;
+
+            border: 150px solid black;
+            background-color: gold;
+            border-radius: 40px;
+        }
+        button {
+            background-color: black;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+            
+        }
+        input {
+            text-align: center;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            font-size: medium;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .botao {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+        .formulario {
+            margin-left: 50px;
+            margin-top: 45px;
+        }
+        .gatinho {
+            margin-left: 160px;
+            margin-top: 3px;
+        }
+
+        img {
+            border-radius: 20px;
+        }
+
+    </style>
+    
+    <div class="container">
+        <div class="gatinho">
+        <img src="../img/gato1.jpg">
+        </div>
+        <div class="formulario">
+                <form action="">
+                    <input type="text" id="nome" placeholder="Coloque seu nome"><br>
+                    <input type="text" id="e-mail" placeholder="Preencha com e-mail"><br>
+                    <input type="text" id="idade" placeholder="Coloque sua idade">
+                    <br>
+                    <div class="botao">
+                    <button type="button">Cadastrar</button>
+                    <button type="button">Apagar</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
